@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRATION FORM</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+<h1>Register</h1>
+<form method="get" action="index.html">
+
+<div>
+<label for="n">Name:</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="n" id="n" type="text" required>
+</div>
+<br>
+
+<div>
+<label for="p">Password:</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="p" id="p" type="password" required>
+</div>
+<br>
+
+<div>
+<label for="d">Date-of-Birth:</label>
+<input name="d" id="d" type="date" required>
+</div>
+<br>
+
+<div>
+<label for="a">Age:</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="a" id="a" type="number" required>
+</div>
+<br>
+
+<div>
+<label for="e">E-Mail:</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="e" id="e" type="email" required>
+</div>
+<br>
+
+<div>
+<p>Gender:
+<input name="g" id="g" type="radio" value="Male" required>
+<label for="g">Male</label>
+<input name="g" id="g" type="radio" value="Female" required>
+<label for="g">Female</label>
+<input name="g" id="g" type="radio" value="Others" required>
+<label for="g">Others</label>
+</p>
+</div>
+<br>
+
+<div>
+Available slot:<br>
+<br>
+<input name="s" id="s" type="checkbox" value="8:00-9:00" >
+<label for="s">8:00-9:00</label>
+<br>
+<input name="s" id="s" type="checkbox" value="9:00-10:00" >
+<label for="s">9:00-10:00</label>
+<br>
+<input name="s" id="s" type="checkbox" value="11:00-12:00">
+<label for="s">11:00-12:00</label>
+<br>
+<input name="s" id="s" type="checkbox" value="13:00-14:00" >
+<label for="s">13:00-14:00</label>
+
+</div>
+<br>
+
+<div>
+Branch:
+<select>
+<option value="cs">Computer Science</option>
+<option value="ece">Electronics</option>
+<option value="civ">Civil</option>
+<option value="mech">Mechanical</option>
+</select>
+</div>
+<br>
+<button type="submit">SUBMIT</button>
+<button type="reset">RESET</button>
+
+</form>
+</body>
+</html>
